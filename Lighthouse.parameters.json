@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Thrive Managed Sentinel"
+            "value": "Relecloud Managed Services"
         },
         "mspOfferDescription": {
-            "value": "Thrive Managed Sentinel"
+            "value": "Relecloud Managed Services"
         },
         "managedByTenantId": {
-            "value": "0698c397-a3a3-4e83-8b9e-2aeace365782"
+            "value": "<insert managing tenant id>"
         },
         "authorizations": {
             "value": [

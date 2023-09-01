@@ -4,27 +4,37 @@
     "parameters": {
         "mspOfferName": {
             "type": "string",
+            "defaultValue": "Thrive Managed Sentinel",
             "metadata": {
-                "description": "Specify a unique name for your offer"
+                "description": "Specify the Name for the offering"
             }
         },
         "mspOfferDescription": {
             "type": "string",
+            "defaultValue": "Thrive Managed Sentinel",
             "metadata": {
-                "description": "Name of the Managed Service Provider offering"
+                "description": "Specify the Description of the offering"
             }
         },
         "managedByTenantId": {
             "type": "string",
+            "defaultValue": "0698c397-a3a3-4e83-8b9e-2aeace365782",
             "metadata": {
-                "description": "Specify the tenant id of the Managed Service Provider"
+                "description": "Thrives tenant ID"
             }
         },
         "authorizations": {
             "type": "array",
             "metadata": {
                 "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
-            }
+            },
+            "defaultValue":[
+                { 
+                    "principalId": "a1867ac6-bb49-48b4-8ef7-af0b5c05586c", 
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "Security Engineering" 
+                }
+                    ]
         }              
     },
     "variables": {

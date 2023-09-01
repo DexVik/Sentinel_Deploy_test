@@ -3,35 +3,20 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Relecloud Managed Services"
+            "value": "Thrive Managed Sentinel"
         },
         "mspOfferDescription": {
-            "value": "Relecloud Managed Services"
+            "value": "Thrive Managed Sentinel"
         },
         "managedByTenantId": {
-            "value": "<insert managing tenant id>"
+            "value": "0698c397-a3a3-4e83-8b9e-2aeace365782"
         },
         "authorizations": {
             "value": [
                 { 
-                    "principalId": "00000000-0000-0000-0000-000000000000", 
+                    "principalId": "a1867ac6-bb49-48b4-8ef7-af0b5c05586c", 
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
                     "principalIdDisplayName": "PIM_Group" 
-                }, 
-                { 
-                    "principalId": "00000000-0000-0000-0000-000000000000", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group"
-                    
-                },
-                {
-                    "principalId": "00000000-0000-0000-0000-000000000000",
-                    "principalIdDisplayName": "PIM_Group",
-                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
-                    "delegatedRoleDefinitionIds": [
-                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
-                    ]
                 }
                     ]
                 }                
